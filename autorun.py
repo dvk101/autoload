@@ -1,3 +1,5 @@
+## to make this run on startup press win+r, type in "shell:startup" make a shortcut to this script in the folder and enjoy
+
 import os
 import tkinter as tk
 from tkinter import messagebox
