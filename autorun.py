@@ -7,8 +7,8 @@ from tkinter import messagebox
 reply = messagebox.askyesno(title="autorun.py", message="run setup?")
 
 if reply == True:
-   os.system("C:/Users/User/AppData/Local/GitHubDesktop/GitHubDesktop.exe", "C:/Users/User/AppData/Local/Programs/Microsoft VS Code/Code.exe")
-   #os.system("C:/Users/User/AppData/Local/Programs/Microsoft VS Code/Code.exe")
+   os.system("C:/Users/User/AppData/Local/GitHubDesktop/GitHubDesktop.exe")
+   os.system("C:/Program Files/Mozilla Firefox/firefox.exe")
    ## to add an app enter os.system("yourappsroot/yourapp.exe")
    print("launched")
    quit()
