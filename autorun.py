@@ -8,7 +8,7 @@ reply = messagebox.askyesno(title="autorun.py", message="run setup?")
 
 if reply == True:
    os.startfile("C:/Users/User/AppData/Local/GitHubDesktop/GitHubDesktop.exe")
-   os.startfile("C:/Program Files/Mozilla Firefox/firefox.exe")
+   os.startfile("C:/Users/User/AppData/Local/Programs/Microsoft VS Code/Code.exe")
    ## to add an app enter os.startfile("yourappsroot/yourapp.exe")
    print("launched")
 elif reply == False:
